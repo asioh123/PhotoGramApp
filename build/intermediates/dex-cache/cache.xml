@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\assy\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.1-6d5f0146eb3e63399f3cedb8801336dbd47c02ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\assy\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-b5c9f686841d45c665a55c406e9babed3816545d.jar" />
+    </item>
+    <item
+        jar="C:\Users\assy\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.3\36366e460af2c0f224bb8f70b64e3302f638b138\parse-android-1.10.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="36366e460af2c0f224bb8f70b64e3302f638b138">
+        <dex dex="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\pre-dexed\debug\parse-android-1.10.3-78012c74dec270c590ff441b473e558d2803eeba.jar" />
+    </item>
+    <item
+        jar="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-446f6022105ae9ec02c2b6030d06c30a0b31ff74.jar" />
+    </item>
+    <item
+        jar="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-48ee6b61a47a21ea8c50ce3f992d2ddad3f0f005.jar" />
+    </item>
+    <item
+        jar="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-3bb9b2ccbe1380eb152cf2b0b227f57a34286500.jar" />
+    </item>
+
+</items>
