@@ -8,6 +8,8 @@
  */
 package com.parse.starter;
 
+import android.content.Intent;
+import android.hardware.input.InputManager;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -15,12 +17,16 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.LogInCallback;
+import com.parse.Parse;
 import com.parse.ParseAnalytics;
 import com.parse.ParseException;
 import com.parse.ParseUser;
@@ -33,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   EditText passwordField;
   TextView changeSignUpMode;
   Button loginButton;
+  RelativeLayout mainLayout;
+  ImageView logo;
   Boolean signUpModeActive;
 
   @Override
@@ -55,6 +63,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
       }
 
     }
+    else if(v.getId() == R.id.logo || v.getId() == R.id.mainLayout)
+    {
+      InputMethodManager method = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
+      method.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),0);
+    }
   }
 
   public void SignUpOrLogin(View view)
@@ -72,6 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           {
             Log.i("appinfo", "Signup Succsseful");
             Toast.makeText(getApplicationContext(), R.string.WelcomeToast, Toast.LENGTH_LONG).show();
+            logUserIn();
           } else
             Toast.makeText(getApplicationContext(), e.getMessage().substring(e.getMessage().indexOf(" ")), Toast.LENGTH_LONG).show();
         }
@@ -87,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             Log.i("AppInfo", "Login Successful");
             Toast.makeText(getApplicationContext(), R.string.WelcomeToast, Toast.LENGTH_LONG).show();
-
+            logUserIn();
           } else {
 
             Toast.makeText(getApplicationContext(), e.getMessage().substring(e.getMessage().indexOf(" ")), Toast.LENGTH_LONG).show();
@@ -101,18 +115,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
   }
 
+  public  void logUserIn()
+  {
+    Intent i =new Intent(getApplicationContext(),UserList.class);
+    startActivity(i);
+  }
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
+    if(ParseUser.getCurrentUser() != null)
+    {
+      logUserIn();
+    }
+
     userNameField =(EditText)findViewById(R.id.UserText);
     passwordField =(EditText)findViewById(R.id.PassText);
     changeSignUpMode = (TextView)findViewById(R.id.changeSignMode);
-    changeSignUpMode.setOnClickListener(this);
     loginButton = (Button)findViewById(R.id.LogInButton);
+    logo = (ImageView)findViewById(R.id.logo);
+    mainLayout = (RelativeLayout)findViewById(R.id.mainLayout);
     signUpModeActive=true;
 
+    changeSignUpMode.setOnClickListener(this);
+    logo.setOnClickListener(this);
+    mainLayout.setOnClickListener(this);
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
 

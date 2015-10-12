@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:10:1-40:12
+ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:10:1-44:12
 	package
 		ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:11:5-32
 		INJECTED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\m
 	android:name
 		ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:14:22-76
 application
-ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:16:5-38:19
+ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:16:5-42:19
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
 	android:label
@@ -63,6 +63,12 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:35:17-77
 	android:name
 		ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:35:27-74
+activity#com.parse.starter.UserList
+ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:38:9-41:20
+	android:label
+		ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:40:13-61
+	android:name
+		ADDED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml:39:13-37
 uses-sdk
 INJECTED from C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\assy\Documents\GitHub\PhotoGramApp\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
