@@ -206,13 +206,16 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">PhotoGram</string>
     <string name="hello_world">Hello World!</string>
+    <string name="logOut">LogOut</string>
     <string name="parse_app_id">Hl5DS7CZtAlvu7wU55BmpD7Y52p3K6QXVNyZeei3</string>
     <string name="parse_client_key">6PEsMGcE9EbNSApx7H00N8nSkp5dDb61YZjtkP02</string>
+    <string name="sherhManuItem">Share</string>
     <!-- From: file:/C:/Users/assy/Documents/GitHub/PhotoGramApp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
     <!-- From: file:/C:/Users/assy/Documents/GitHub/PhotoGramApp/ParseStarterProject/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="title_activity_user_feed">UserFeed</string>
     <string name="title_activity_user_list">UserList</string>
     <!-- From: file:/C:/Users/assy/Documents/GitHub/PhotoGramApp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>

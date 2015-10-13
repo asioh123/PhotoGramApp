@@ -17,4 +17,7 @@
     <string name="hello_world">Hello World!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_user_list">UserList</string>
+    <string name="sherhManuItem">Share</string>
+    <string name="logOut">LogOut</string>
+    <string name="title_activity_user_feed">UserFeed</string>
 </resources>
